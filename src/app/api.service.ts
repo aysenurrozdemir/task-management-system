@@ -44,8 +44,8 @@ export class ApiService {
     newTask.project = task.project;
     newTask.status = task.status;
     newTask.progress = task.progress;
-    newTask.startDate = formatDateToLocal(task.startDate);
-    newTask.dueDate = formatDateToLocal(task.dueDate);
+    newTask.startDate = task.startDate;
+    newTask.dueDate = task.dueDate;
     newTask.createdAt = task.createdAt;
     newTask.notes = task.notes;
 
